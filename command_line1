@@ -1,0 +1,102 @@
+C:\Users\ivan\Documents\SchoolProjects>cd
+C:\Users\ivan\Documents\SchoolProjects
+
+C:\Users\ivan\Documents\SchoolProjects>copy C:\Users\ivan\Documents\new
+C:\Users\ivan\Documents\new\123.txt
+        1 file(s) copied.
+
+C:\Users\ivan\Documents\SchoolProjects>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is E603-F55D
+
+ Directory of C:\Users\ivan\Documents\SchoolProjects
+
+02.07.2024  22:46    <DIR>          .
+02.07.2024  22:30    <DIR>          ..
+02.07.2024  22:34                 0 123.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  23 570 735 104 bytes free
+
+C:\Users\ivan\Documents\SchoolProjects>type nul > math_homework.tt
+
+C:\Users\ivan\Documents\SchoolProjects>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is E603-F55D
+
+ Directory of C:\Users\ivan\Documents\SchoolProjects
+
+02.07.2024  22:48    <DIR>          .
+02.07.2024  22:30    <DIR>          ..
+02.07.2024  22:34                 0 123.txt
+02.07.2024  22:48                 0 math_homework.tt
+               2 File(s)              0 bytes
+               2 Dir(s)  23 569 739 776 bytes free
+
+C:\Users\ivan\Documents\SchoolProjects>move C:\Users\ivan\Documents\SchoolProjects\math_homework.txt
+The system cannot find the file specified.
+
+C:\Users\ivan\Documents\SchoolProjects>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is E603-F55D
+
+ Directory of C:\Users\ivan\Documents\SchoolProjects
+
+02.07.2024  22:48    <DIR>          .
+02.07.2024  22:30    <DIR>          ..
+02.07.2024  22:34                 0 123.txt
+02.07.2024  22:48                 0 math_homework.tt
+               2 File(s)              0 bytes
+               2 Dir(s)  23 568 973 824 bytes free
+
+C:\Users\ivan\Documents\SchoolProjects>move C:\Users\ivan\Documents\SchoolProjects\math_homework.tt C:\Users\ivan\Documents
+        1 file(s) moved.
+
+C:\Users\ivan\Documents\SchoolProjects>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is E603-F55D
+
+ Directory of C:\Users\ivan\Documents\SchoolProjects
+
+02.07.2024  22:52    <DIR>          .
+02.07.2024  22:52    <DIR>          ..
+02.07.2024  22:34                 0 123.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  23 568 625 664 bytes free
+
+C:\Users\ivan\Documents\SchoolProjects>del math_homework.tt
+Could Not Find C:\Users\ivan\Documents\SchoolProjects\math_homework.tt
+
+C:\Users\ivan\Documents\SchoolProjects>del C:\Users\ivan\Documents\math_homework.tt
+
+C:\Users\ivan\Documents\SchoolProjects>dir C:\Users\ivan\Documents
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is E603-F55D
+
+ Directory of C:\Users\ivan\Documents
+
+02.07.2024  22:54    <DIR>          .
+01.07.2024  00:18    <DIR>          ..
+20.05.2023  09:36    <DIR>          4a games
+08.10.2023  12:31    <DIR>          Bandicam
+18.02.2023  22:42    <DIR>          Electronic Arts
+01.07.2024  18:46    <DIR>          Euro Truck Simulator 2
+29.06.2024  20:54    <DIR>          GitHub
+24.05.2024  15:45            95 956 GOOD OBBY V1.rbxl
+15.08.2023  15:22    <DIR>          GTA San Andreas User Files
+06.03.2024  20:10    <DIR>          Image-Line
+23.05.2024  20:59            46 021 kommand.rbxl
+17.08.2023  18:52    <DIR>          My Games
+02.07.2024  22:35    <DIR>          new
+18.03.2023  13:42    <DIR>          Paradox Interactive
+26.04.2024  21:43            61 095 place obby.rbxl
+23.04.2024  21:33            58 913 Place1.rbxl
+16.05.2024  19:30            52 314 Place2.rbxl
+22.04.2024  20:38    <DIR>          ROBLOX
+02.07.2024  22:52    <DIR>          SchoolProjects
+13.05.2023  10:54    <DIR>          Scratch Projects
+17.07.2023  18:15    <DIR>          TI
+10.03.2024  21:07    <DIR>          ViberDownloads
+21.03.2024  23:25    <DIR>          Visual Studio 2019
+01.05.2024  15:40               751 Відеозаписи - Ярлик.lnk
+               6 File(s)        315 050 bytes
+              18 Dir(s)  23 567 847 424 bytes free
